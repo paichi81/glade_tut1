@@ -68,7 +68,7 @@ class GyoumuApp
       select_day(-1)
     end
     @btn_tday.signal_connect('clicked') do
-      select_day(-1)
+      select_day(0)
     end
     @btn_tmrw.signal_connect('clicked') do
       select_day(1)
